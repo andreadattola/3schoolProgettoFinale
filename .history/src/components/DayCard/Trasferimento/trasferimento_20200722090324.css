@@ -1,0 +1,20 @@
+.icon {
+    height: 120px!important;
+    width: 120px!important;
+    padding: 10px;
+}
+
+.icon-taxi {
+    background-color: #fded98;
+    color: #ee9d08
+}
+
+.icon-bus {
+    background-color: #b0dbee;
+    color: #31befa
+}
+
+.icon-car {
+    background-color: #fcd1da;
+    color: #f73761
+}

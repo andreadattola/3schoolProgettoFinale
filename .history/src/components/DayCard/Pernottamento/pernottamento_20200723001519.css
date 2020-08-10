@@ -1,0 +1,20 @@
+.taglia-testo-pernottamento {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.text-mobile {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .text-mobile {
+        font-size: 18px;
+    }
+    .nomobile {
+        display: none;
+    }
+}

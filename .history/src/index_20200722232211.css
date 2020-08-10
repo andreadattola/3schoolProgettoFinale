@@ -1,0 +1,192 @@
+/* Variabili CSS */
+:root {
+    --mycolor-separatore: #8898aa3a;
+    --myheight-navbar: 35px;
+    --icon-height: 150px;
+    --icon-width: 150px;
+    --mini-icon-height: 100px;
+    --mini-icon-width: 100px;
+}
+
+/* BODY E MOD CONTAINER-FLUID*/
+body {
+    background-color: #f5f6fb;
+}
+.container-fluid {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Taglia il testo a due line*/
+.taglia-testo {
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/* Per tutti i bottoni di classe btn del progetto a meno di diversa specifica su css dei componenti.*/
+button.btn{
+    border-radius: 20px;
+}
+
+/* COLORI */
+.mycolor-orange {
+    color: rgb(245, 174, 21);
+}
+.mycolor-red {
+    color: rgb(207, 10, 16);
+}
+.mycolor-grey {
+    color: rgb(129, 129, 129);
+}
+.mycolor-grey2 {
+    color:rgb(224, 212, 212);
+}
+
+/* TITOLI E TESTI */
+.bigTitle {
+    font-size: 42px;
+    font-family: 'Roboto';
+}
+.mediumTitle {
+    font-size: 36px;
+    font-family: 'Roboto';
+}
+.title {
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.sub-title {
+    font-size: 20px;
+}
+
+.text-small {
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+.text-medium{
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+/**/
+
+.mediumText {
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.largeText {
+    font-size: 28px;
+    font-family: 'Roboto';
+}
+
+.tinyText {
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+
+/* IMMAGINI E ICONE*/
+
+.tiny-img {
+    width: var(--icon-width);
+    height: var(--icon-height);
+    display: block;
+    object-fit: cover;
+}
+.medium-img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+}
+.tiny-icon {
+    width: 150px;
+    height: auto;
+}
+.big-logo {
+    width: 350px;
+    height: auto;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 16px;
+    }
+    .sub-title {
+        font-size: 14px;
+    }
+    .text-small{
+        font-size: 12px;
+    }
+    .text-medium{
+        font-size: 20px;
+    }
+
+
+
+
+    .mediumTitle {
+        font-size: 28px;
+    }
+    .bigTitle {
+        font-size: 36px;
+    }
+    .subTitle {
+        font-size: 16px;
+    }
+    .largeText {
+        font-size: 22px;
+        font-family: 'Roboto';
+    }
+    .tinyText {
+        font-size: 0.8rem;
+    }
+    .big-logo {
+        width: 250px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .tiny-img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+
+
+
+/*
+.primary-color {
+    color: rgb(245, 174, 21);
+}
+.secondary-color {
+    color: rgb(129, 129, 129)
+}
+.tertiary-color {
+    color: rgb(2, 102, 216);
+}
+.quaternary-color {
+    color: rgb(207, 10, 16);
+}
+.color-orange {
+    color: rgb(245, 174, 21);
+}
+.mycolor-grey {
+    color: rgb(129, 129, 129);
+}
+.color-text-grey {
+    color: rgb(68, 67, 67);
+}
+*/

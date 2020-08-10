@@ -1,0 +1,11 @@
+.img-presentazione{
+    height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .img-presentazione{
+        height: 40vh;
+    }
+}

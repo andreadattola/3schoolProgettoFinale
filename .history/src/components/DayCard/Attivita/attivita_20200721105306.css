@@ -1,0 +1,11 @@
+.icon-attivita {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+}
+
+.img-modale-attivita {
+    height: 240px;
+    width: 240px;
+    object-fit: cover;
+}
