@@ -1,0 +1,6 @@
+.accordion__price{font-weight: 600;}
+
+.accordion__price .primary-color{font-size: 24px;}
+
+.price__included .primary-color,
+.total__price{text-transform: uppercase;}

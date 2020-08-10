@@ -1,0 +1,13 @@
+.text-mobile {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .text-mobile {
+        font-size: 18px;
+    }
+    .nomobile {
+        display: none;
+    }
+}

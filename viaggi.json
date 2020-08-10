@@ -1,0 +1,1456 @@
+{
+    "code": "200",
+    "message": "Success",
+    "results": {
+        "data": {
+            "id": 1,
+            "code": "QUO_5e5e2952ae57f",
+            "language": {
+                "id": 2,
+                "code": "it",
+                "name": "italiano",
+                "created_at": "2020-03-02 19:44:53",
+                "updated_at": "2020-03-02 19:44:53"
+            },
+            "title": "L'oriente della Sicilia",
+            "customerType": "customer",
+            "days": 7,
+            "operator": {
+                "id": 21,
+                "name": "Giulia",
+                "image": "http://51.77.82.133:86/api/operators/21/images/UER8YYGVbBbtsA6t.jpeg",
+                "contact": {
+                    "id": 23,
+                    "phone": "095-1234567",
+                    "email": "giulia@insolitatravel.com",
+                    "address": "",
+                    "website": "",
+                    "note": ""
+                }
+            },
+            "agency": {
+                "id": 21,
+                "name": "Insolita Travel Sicilia",
+                "licenseNumber": "1234567899",
+                "image": null,
+                "contact": {
+                    "id": 25,
+                    "phone": "095-1234567",
+                    "email": "info@insolitatravel.com",
+                    "address": "Via uno, 123456",
+                    "website": "www.sito.it",
+                    "note": ""
+                }
+            },
+            "agencyName": null,
+            "customerName": "Marco Aiello",
+            "dateFrom": "2020-04-01",
+            "dateTo": "2020-04-07",
+            "note": null,
+            "partecipantsNum": 2,
+            "included": "Sono compresi nel preventivo tutti i trasporti",
+            "notIncluded": "Non sono comprese nel preventivo le attività facoltative",
+            "documentsRequested": {
+                "id": 23,
+                "language_id": 2,
+                "name": "Documenti richiesti",
+                "typology": "documenti_richiesti",
+                "description": "Per entrare in modo regolare in Italia è necessario il passaporto o altro documento di viaggio e il visto di ingresso, che va richiesto all'ambasciata o ai consolati italiani nel Paese d'origine o di residenza stabile del cittadino straniero extracomunitario. L'ingresso in Italia è consentito con visti per soggiorni di breve durata, validi fino a 3 mesi, e per soggiorni di  lunga  durata che comportano la concessione di un permesso di soggiorno (di lunga durata) con motivazione identica a quella del  visto.",
+                "created_at": "2020-02-26 17:37:00",
+                "updated_at": "2020-02-26 17:37:00"
+            },
+            "documentsInsurance": {
+                "id": 25,
+                "language_id": 2,
+                "name": "Assicurazione 1",
+                "typology": "assicurazioni",
+                "description": "Non è prevista nessuna assicurazione",
+                "created_at": "2020-02-26 17:39:37",
+                "updated_at": "2020-02-26 17:39:37"
+            },
+            "documentsCancellation": {
+                "id": 21,
+                "language_id": 2,
+                "name": "Cancellazione",
+                "typology": "condizioni_di_cancellazione",
+                "description": "Cancellazione entro 15 giorni prima della data di inizio dell’attività: 100% di rimborso.\r\nCancellazione tra 14 e 8 giorni prima delle data di inizio dell’attività: 50% di rimborso.\r\nCancellazione da 7 giorni prima della data di inizio dell’attività: nessun rimborso.",
+                "created_at": "2020-02-26 17:33:34",
+                "updated_at": "2020-02-26 17:33:34"
+            },
+            "documentsPayment": {
+                "id": 27,
+                "language_id": 2,
+                "name": "Pagamento con anticipo",
+                "typology": "condizioni_di_pagamento",
+                "description": "Riserva un posto oggi e cancella fino a due giorni prima dell'esperienza senza pagare. Prenota il tuo posto in modo semplice e flessibile e non perderti mai le migliori occasioni.",
+                "created_at": "2020-02-26 17:46:06",
+                "updated_at": "2020-02-26 17:46:06"
+            },
+            "priceTotal": 160000,
+            "isTemplate": 0,
+            "images": [
+                {
+                    "id": 105,
+                    "image": "http://51.77.82.133:86/api/images/105/images/YAuOvLwViNudPxDl.jpeg",
+                    "image_name": null
+                }
+            ],
+            "partecipants": [
+                {
+                    "id": 3,
+                    "type": "adulto",
+                    "detail": "Camera matrimoniale",
+                    "price": 800
+                },
+                {
+                    "id": 4,
+                    "type": "adulto",
+                    "detail": "Camera matrimoniale",
+                    "price": 800
+                }
+            ],
+            "rows": [
+                {
+                    "id": 8,
+                    "place": {
+                        "id": 21,
+                        "name": "Catania",
+                        "address": "Catania, Sicilia, Italia",
+                        "latitude": "37.502236",
+                        "longitude": "15.087380",
+                        "created_at": "2020-02-26 13:44:00",
+                        "updated_at": "2020-02-26 13:44:00"
+                    },
+                    "dayDate": "2020-04-01",
+                    "accomodations": [
+                        {
+                            "id": 6,
+                            "name": "Romano Palace  Hotel",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "typology": "Hotel",
+                            "stars": "5_Luxury",
+                            "position": "Sul lungomare a soli 5 minuti in auto dall'Aeroporto di Catania Fontanarossa",
+                            "description": "Il Romano Palace Luxury Hotel offre un tranquillo giardino, un ristorante gastronomico, un'ampia piscina e camere eleganti.",
+                            "descriptionRestaurant": "Il ristorante Coriandolo propone specialità classiche nazionali e siciliane, come pesce spada fresco, frutti di mare allo zafferano e caratteristici cannoli come dessert. Imperdibile la prima colazione, servita su una terrazza all'ultimo piano con vista sull'Etna e comprensiva anche di fragole e prosecco di ottima qualità",
+                            "descriptionRooms": "Le sistemazioni del Romano Palace sono arredate con vivaci tonalità mediterranee e mobili tradizionali, e sono provviste di connessione WiFi gratuita, balcone e TV LCD con canali Sky.",
+                            "descriptionServices": "Piscina, Parcheggio, Connessione WiFi gratuita, Fronte spiaggia, Disponibilità di camere familiari, Bar",
+                            "tags": [
+                                {
+                                    "id": 43,
+                                    "name": "Frontespiaggia"
+                                },
+                                {
+                                    "id": 41,
+                                    "name": "Piscina"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 21,
+                                    "name": "Catania",
+                                    "position": {
+                                        "address": "Catania, Sicilia, Italia",
+                                        "coords": [
+                                            "37.502236",
+                                            "15.087380"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 133,
+                                    "image": "http://51.77.82.133:86/api/images/133/images/x5ZrxVyRoDSCxryI.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 134,
+                                    "image": "http://51.77.82.133:86/api/images/134/images/J11jWkXomiICx3cf.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 135,
+                                    "image": "http://51.77.82.133:86/api/images/135/images/wOjZqGQCrB3ZBEHP.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 136,
+                                    "image": "http://51.77.82.133:86/api/images/136/images/mBqHZhAU80mIul0K.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 137,
+                                    "image": "http://51.77.82.133:86/api/images/137/images/caB4y8APDXdP3JHf.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 138,
+                                    "image": "http://51.77.82.133:86/api/images/138/images/g1gEDSzKkBD1EqZ5.jpeg",
+                                    "image_name": null
+                                }
+                            ],
+                            "contact": {
+                                "id": 39,
+                                "phone": "095-1234567",
+                                "email": "hotel@info.com",
+                                "address": "Viale Kennedy 28, 95121 Catania",
+                                "website": "www.hotel.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "activities": [
+                        {
+                            "id": 4,
+                            "name": "Pranzo itinerante facoltativo",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "description": "Le numerose cucine del centro storico si uniscono per offrire ricette tradizionali, sapori genuini e casalinghi. \r\nUn menù condiviso, un unico pranzo da gustare in maniera itinerante, visitando le vie del centro.\r\nIl prezzo è tra i 30 e i 40 euro.",
+                            "tags": [
+                                {
+                                    "id": 45,
+                                    "name": "Facoltativo"
+                                },
+                                {
+                                    "id": 44,
+                                    "name": "PranzoCatania"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 21,
+                                    "name": "Catania",
+                                    "position": {
+                                        "address": "Catania, Sicilia, Italia",
+                                        "coords": [
+                                            "37.502236",
+                                            "15.087380"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 139,
+                                    "image": "http://51.77.82.133:86/api/images/139/images/zdXBAiBrG5iNxfe8.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 140,
+                                    "image": "http://51.77.82.133:86/api/images/140/images/6B6ZnbffkjQWX5B6.jpeg",
+                                    "image_name": null
+                                }
+                            ],
+                            "contact": {
+                                "id": 40,
+                                "phone": "095-1234567",
+                                "email": "trasporto@info.com",
+                                "address": "attività@info.com",
+                                "website": null,
+                                "note": "www.attività.it"
+                            }
+                        }
+                    ],
+                    "days": [
+                        {
+                            "id": 8,
+                            "name": "Benvenuti a Catania!",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "description": "Benvenuti a Catania, antica città portuale sulla costa orientale della Sicilia. È situata ai piedi dell'Etna, un vulcano attivo con sentieri che arrivano fino alla sua sommità. L'ampia piazza centrale della città, piazza del Duomo, è caratterizzata dalla pittoresca statua della Fontana dell'Elefante e dalla Cattedrale, riccamente decorata. Al vostro arrivo depositate i bagagli in hotel e fate un giro in centro per assaporare la movida catenese!",
+                            "tags": [
+                                {
+                                    "id": 22,
+                                    "name": "Arrivoserale"
+                                },
+                                {
+                                    "id": 23,
+                                    "name": "BenvenutoCatania"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 21,
+                                    "name": "Catania",
+                                    "position": {
+                                        "address": "Catania, Sicilia, Italia",
+                                        "coords": [
+                                            "37.502236",
+                                            "15.087380"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 102,
+                                    "image": "http://51.77.82.133:86/api/images/102/images/zx0Sj1ejbGCRvHAq.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 103,
+                                    "image": "http://51.77.82.133:86/api/images/103/images/fDTfBjUlFCzbg3Bn.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 104,
+                                    "image": "http://51.77.82.133:86/api/images/104/images/87f0VoTsHR4pDdSt.jpeg",
+                                    "image_name": null
+                                }
+                            ]
+                        }
+                    ],
+                    "transports": [
+                        {
+                            "id": 6,
+                            "name": "Trasferimento con auto privata da Fontanarossa all'hotel",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "typology": "auto_privata",
+                            "distance": 20,
+                            "description": "Un' auto privata aspetterà il vostro arrivo per trasferirvi all'hotel",
+                            "tags": [
+                                
+                            ],
+                            "departure": {
+                                "id": 24,
+                                "name": "Aeroporto Fontanarossa",
+                                "position": {
+                                    "address": "Aeroporto di Catania Fontanarossa, Via Angelo D'Arrigo, San Giuseppe La Rena, San Giorgio-Librino-Sa",
+                                    "coords": [
+                                        "37.467243",
+                                        "15.067568"
+                                    ]
+                                }
+                            },
+                            "arrival": {
+                                "id": 21,
+                                "name": "Catania",
+                                "position": {
+                                    "address": "Catania, Sicilia, Italia",
+                                    "coords": [
+                                        "37.502236",
+                                        "15.087380"
+                                    ]
+                                }
+                            },
+                            "contact": {
+                                "id": 41,
+                                "phone": "095-1234567",
+                                "email": "trasporto@info.com",
+                                "address": "via uno, 123456",
+                                "website": "www.trasporto.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "included": null,
+                    "notIncluded": null
+                },
+                {
+                    "id": 9,
+                    "place": {
+                        "id": 21,
+                        "name": "Catania",
+                        "address": "Catania, Sicilia, Italia",
+                        "latitude": "37.502236",
+                        "longitude": "15.087380",
+                        "created_at": "2020-02-26 13:44:00",
+                        "updated_at": "2020-02-26 13:44:00"
+                    },
+                    "dayDate": "2020-04-02",
+                    "accomodations": [
+                        {
+                            "id": 7,
+                            "name": "Romano Palace  Hotel",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "typology": "Hotel",
+                            "stars": "5_Luxury",
+                            "position": "Sul lungomare a soli 5 minuti in auto dall'Aeroporto di Catania Fontanarossa",
+                            "description": "Il Romano Palace Luxury Hotel offre un tranquillo giardino, un ristorante gastronomico, un'ampia piscina e camere eleganti.",
+                            "descriptionRestaurant": "Il ristorante Coriandolo propone specialità classiche nazionali e siciliane, come pesce spada fresco, frutti di mare allo zafferano e caratteristici cannoli come dessert. Imperdibile la prima colazione, servita su una terrazza all'ultimo piano con vista sull'Etna e comprensiva anche di fragole e prosecco di ottima qualità",
+                            "descriptionRooms": "Le sistemazioni del Romano Palace sono arredate con vivaci tonalità mediterranee e mobili tradizionali, e sono provviste di connessione WiFi gratuita, balcone e TV LCD con canali Sky.",
+                            "descriptionServices": "Piscina, Parcheggio, Connessione WiFi gratuita, Fronte spiaggia, Disponibilità di camere familiari, Bar",
+                            "tags": [
+                                {
+                                    "id": 43,
+                                    "name": "Frontespiaggia"
+                                },
+                                {
+                                    "id": 41,
+                                    "name": "Piscina"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 21,
+                                    "name": "Catania",
+                                    "position": {
+                                        "address": "Catania, Sicilia, Italia",
+                                        "coords": [
+                                            "37.502236",
+                                            "15.087380"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 133,
+                                    "image": "http://51.77.82.133:86/api/images/133/images/x5ZrxVyRoDSCxryI.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 134,
+                                    "image": "http://51.77.82.133:86/api/images/134/images/J11jWkXomiICx3cf.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 135,
+                                    "image": "http://51.77.82.133:86/api/images/135/images/wOjZqGQCrB3ZBEHP.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 136,
+                                    "image": "http://51.77.82.133:86/api/images/136/images/mBqHZhAU80mIul0K.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 137,
+                                    "image": "http://51.77.82.133:86/api/images/137/images/caB4y8APDXdP3JHf.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 138,
+                                    "image": "http://51.77.82.133:86/api/images/138/images/g1gEDSzKkBD1EqZ5.jpeg",
+                                    "image_name": null
+                                }
+                            ],
+                            "contact": {
+                                "id": 42,
+                                "phone": "095-1234567",
+                                "email": "hotel@info.com",
+                                "address": "Viale Kennedy 28, 95121 Catania",
+                                "website": "www.hotel.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "activities": [
+                        
+                    ],
+                    "days": [
+                        {
+                            "id": 9,
+                            "name": "Visita alla storica Pescheria",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "description": "La Pescheria (Piscarìa in lingua siciliana) è l'antico mercato del pesce della città di Catania ed è inserito nel percorso turistico per il contenuto di folclore che si respira passando fra i banchi dei pescivendoli.\r\n\r\nSolo provando questa esperienza ci si può rendere conto di quanto pittoresco possa essere questo mercato: il mercato è sempre affollato ed il vocio incessante (la vuciata) dei venditori crea un sottofondo da suq arabo e si respira la tipica atmosfera di una medina.",
+                            "tags": [
+                                {
+                                    "id": 30,
+                                    "name": "Pescheria"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 21,
+                                    "name": "Catania",
+                                    "position": {
+                                        "address": "Catania, Sicilia, Italia",
+                                        "coords": [
+                                            "37.502236",
+                                            "15.087380"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 107,
+                                    "image": "http://51.77.82.133:86/api/images/107/images/BLFNsChI1sJHS6oX.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 108,
+                                    "image": "http://51.77.82.133:86/api/images/108/images/6wcaRedEXy4g6ZAa.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 109,
+                                    "image": "http://51.77.82.133:86/api/images/109/images/hToXoozWjLRcPJZQ.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 110,
+                                    "image": "http://51.77.82.133:86/api/images/110/images/eXf7B2pKcmvo6Srx.jpeg",
+                                    "image_name": null
+                                }
+                            ]
+                        }
+                    ],
+                    "transports": [
+                        
+                    ],
+                    "included": null,
+                    "notIncluded": null
+                },
+                {
+                    "id": 10,
+                    "place": {
+                        "id": 21,
+                        "name": "Catania",
+                        "address": "Catania, Sicilia, Italia",
+                        "latitude": "37.502236",
+                        "longitude": "15.087380",
+                        "created_at": "2020-02-26 13:44:00",
+                        "updated_at": "2020-02-26 13:44:00"
+                    },
+                    "dayDate": "2020-04-03",
+                    "accomodations": [
+                        
+                    ],
+                    "activities": [
+                        
+                    ],
+                    "days": [
+                        {
+                            "id": 10,
+                            "name": "Giornata sull'Etna",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "description": "L'Etna sorge sulla costa orientale della Sicilia, a sud-ovest dei Monti Peloritani e a sud-est dei Monti Nebrodi (Appennino Siculo), entro il territorio della città di Catania.\r\nUn auto privata vi condurrà dal vostro hotel fino a destinazione. L'appuntamento è alle 9 del mattino per godere della mattinata sull'Etna, arriverete in tempo per visitare i Crateri Silvestri e poi pranzare in Rifugio. \r\nIntorno alle 16 del pomeriggio l'auto privata vi riporterà in hotel.",
+                            "tags": [
+                                {
+                                    "id": 24,
+                                    "name": "Etna"
+                                },
+                                {
+                                    "id": 29,
+                                    "name": "Etnaautoprivata"
+                                },
+                                {
+                                    "id": 27,
+                                    "name": "PranzoEtna"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 21,
+                                    "name": "Catania",
+                                    "position": {
+                                        "address": "Catania, Sicilia, Italia",
+                                        "coords": [
+                                            "37.502236",
+                                            "15.087380"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 105,
+                                    "image": "http://51.77.82.133:86/api/images/105/images/YAuOvLwViNudPxDl.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 106,
+                                    "image": "http://51.77.82.133:86/api/images/106/images/C5KEYVQwldFP7BID.jpeg",
+                                    "image_name": null
+                                }
+                            ]
+                        }
+                    ],
+                    "transports": [
+                        {
+                            "id": 7,
+                            "name": "Trasferimento con auto privata dall’hotel all’Etna a/r",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "typology": "auto_privata",
+                            "distance": 80,
+                            "description": "Una nostra auto privata vi accompagnerà per una giornata indimenticale sull'Etna. L'appuntamento è alle 9 del mattino, per rientrare intorno alle 16.",
+                            "tags": [
+                                
+                            ],
+                            "departure": {
+                                "id": 21,
+                                "name": "Catania",
+                                "position": {
+                                    "address": "Catania, Sicilia, Italia",
+                                    "coords": [
+                                        "37.502236",
+                                        "15.087380"
+                                    ]
+                                }
+                            },
+                            "arrival": {
+                                "id": 25,
+                                "name": "Etna",
+                                "position": {
+                                    "address": "Etna, Zafferana Etnea, Catania, Sicilia, Italia",
+                                    "coords": [
+                                        "37.751025",
+                                        "14.994032"
+                                    ]
+                                }
+                            },
+                            "contact": {
+                                "id": 43,
+                                "phone": "095-1234567",
+                                "email": "trasporto@info.com",
+                                "address": "via uno, 123456",
+                                "website": "www.trasporto.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "included": null,
+                    "notIncluded": null
+                },
+                {
+                    "id": 11,
+                    "place": {
+                        "id": 22,
+                        "name": "Taormina",
+                        "address": "Taormina, Messina, Sicilia, Italia",
+                        "latitude": "37.851792",
+                        "longitude": "15.285652",
+                        "created_at": "2020-02-26 14:59:57",
+                        "updated_at": "2020-02-26 14:59:57"
+                    },
+                    "dayDate": "2020-04-04",
+                    "accomodations": [
+                        {
+                            "id": 8,
+                            "name": "Park Hotel Taormina",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "typology": "Resort",
+                            "stars": "5_Luxury",
+                            "position": "5 minuti a piedi dal centro di Taormina, 400 metri dal Teatro Greco di Taormina e 7 km dalla stazione ferroviaria di Taormina-Giardini.",
+                            "description": "Il Resort offre gratuitamente un centro benessere e una piscina all'aperto, e vanta bellissime viste sul Mar Ionio e una grande terrazza panoramica.",
+                            "descriptionRestaurant": "Il ristorante del Taormina Park Hotel è specializzato in cucina italiana e siciliana e propone vini locali, che potrete gustare ammirando la vista sul mare dalle grandi finestre nella sala ristorazione in inverno, e sulla terrazza affacciata sul mare in estate",
+                            "descriptionRooms": "Tutte le camere sono climatizzate e presentano arredi in legno di noce, e la maggior parte regala un balcone e viste sul mare, sull'Etna o sul parco circostante.",
+                            "descriptionServices": "Piscina, Parcheggio, Connessione WiFi gratuita, Disponibilità di camere familiari, Ristorante, Bar, Spiaggia privata",
+                            "tags": [
+                                {
+                                    "id": 39,
+                                    "name": "Famiglia"
+                                },
+                                {
+                                    "id": 41,
+                                    "name": "Piscina"
+                                },
+                                {
+                                    "id": 42,
+                                    "name": "Spiaggiaprivata"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 22,
+                                    "name": "Taormina",
+                                    "position": {
+                                        "address": "Taormina, Messina, Sicilia, Italia",
+                                        "coords": [
+                                            "37.851792",
+                                            "15.285652"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 126,
+                                    "image": "http://51.77.82.133:86/api/images/126/images/GY9hI7m8DvYNLgVp.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 127,
+                                    "image": "http://51.77.82.133:86/api/images/127/images/qamIgu1zF1ZOa63w.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 128,
+                                    "image": "http://51.77.82.133:86/api/images/128/images/qZHhv2Wr9bIsnt6j.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 129,
+                                    "image": "http://51.77.82.133:86/api/images/129/images/jJxn7OczkWBoY0UB.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 130,
+                                    "image": "http://51.77.82.133:86/api/images/130/images/L6aNIMNmd7BJVI9P.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 131,
+                                    "image": "http://51.77.82.133:86/api/images/131/images/8LmMsY5OafYGXaBZ.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 132,
+                                    "image": "http://51.77.82.133:86/api/images/132/images/CJRCQcM3er38RvvA.jpeg",
+                                    "image_name": null
+                                }
+                            ],
+                            "contact": {
+                                "id": 44,
+                                "phone": "095-1234567",
+                                "email": "hotel@info.com",
+                                "address": "Via Bagnoli Croci 92, 98039 Taormina",
+                                "website": "www.hotel.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "activities": [
+                        {
+                            "id": 5,
+                            "name": "Opera dei pupi siciliani",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "description": "L’Opera dei Pupi è la rappresentazione del teatro di figura, tipica della Sicilia. I pupi sono le marionette del teatro epico-popolare. Non perdetevi questo momento tipicamente siciliano! Lo spettacolo è alle ore 18 presso la casa comunale, l'ingresso costa 30 euro",
+                            "tags": [
+                                {
+                                    "id": 45,
+                                    "name": "Facoltativo"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 22,
+                                    "name": "Taormina",
+                                    "position": {
+                                        "address": "Taormina, Messina, Sicilia, Italia",
+                                        "coords": [
+                                            "37.851792",
+                                            "15.285652"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 141,
+                                    "image": "http://51.77.82.133:86/api/images/141/images/e0sTzCusGe4Q8ZL7.jpeg",
+                                    "image_name": null
+                                }
+                            ],
+                            "contact": {
+                                "id": 45,
+                                "phone": "095-1234567",
+                                "email": "attività@info.com",
+                                "address": "via uno, 123456",
+                                "website": "www.attività.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "days": [
+                        {
+                            "id": 11,
+                            "name": "Una notte a Taormina",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "description": "Taormina è uno dei centri turistici internazionali di maggiore rilievo della regione siciliana, conosciuta per il suo paesaggio naturale, le bellezze marine e i suoi monumenti storici. \r\nUn servizio di transfer vi preleverà alle 9 e vi porterà al vostro hotel in Taormina",
+                            "tags": [
+                                {
+                                    "id": 31,
+                                    "name": "Oneday"
+                                },
+                                {
+                                    "id": 32,
+                                    "name": "Onenight"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 22,
+                                    "name": "Taormina",
+                                    "position": {
+                                        "address": "Taormina, Messina, Sicilia, Italia",
+                                        "coords": [
+                                            "37.851792",
+                                            "15.285652"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 111,
+                                    "image": "http://51.77.82.133:86/api/images/111/images/ROKIMHNFh1dK77Bb.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 112,
+                                    "image": "http://51.77.82.133:86/api/images/112/images/r7xF5FZa7KDZQwnw.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 113,
+                                    "image": "http://51.77.82.133:86/api/images/113/images/UQOumtMEiNcJsiVk.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 114,
+                                    "image": "http://51.77.82.133:86/api/images/114/images/A9PMGKNBgV9SpnJ4.jpeg",
+                                    "image_name": null
+                                }
+                            ]
+                        }
+                    ],
+                    "transports": [
+                        {
+                            "id": 8,
+                            "name": "Trasferimento da Catania a Taormina",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "typology": "transfer",
+                            "distance": 100,
+                            "description": "Un servizio di transfer sarà a vostra disposizione per accompagnarvi al vostro hotel a Taormina. La partenza è prevista per le 9 del mattino",
+                            "tags": [
+                                
+                            ],
+                            "departure": {
+                                "id": 21,
+                                "name": "Catania",
+                                "position": {
+                                    "address": "Catania, Sicilia, Italia",
+                                    "coords": [
+                                        "37.502236",
+                                        "15.087380"
+                                    ]
+                                }
+                            },
+                            "arrival": {
+                                "id": 22,
+                                "name": "Taormina",
+                                "position": {
+                                    "address": "Taormina, Messina, Sicilia, Italia",
+                                    "coords": [
+                                        "37.851792",
+                                        "15.285652"
+                                    ]
+                                }
+                            },
+                            "contact": {
+                                "id": 46,
+                                "phone": "095-1234567",
+                                "email": "trasporto@info.com",
+                                "address": "via uno, 123456",
+                                "website": "www.trasporto.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "included": null,
+                    "notIncluded": null
+                },
+                {
+                    "id": 12,
+                    "place": {
+                        "id": 22,
+                        "name": "Taormina",
+                        "address": "Taormina, Messina, Sicilia, Italia",
+                        "latitude": "37.851792",
+                        "longitude": "15.285652",
+                        "created_at": "2020-02-26 14:59:57",
+                        "updated_at": "2020-02-26 14:59:57"
+                    },
+                    "dayDate": "2020-04-05",
+                    "accomodations": [
+                        {
+                            "id": 9,
+                            "name": "Park Hotel Taormina",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "typology": "Resort",
+                            "stars": "5_Luxury",
+                            "position": "5 minuti a piedi dal centro di Taormina, 400 metri dal Teatro Greco di Taormina e 7 km dalla stazione ferroviaria di Taormina-Giardini.",
+                            "description": "Il Resort offre gratuitamente un centro benessere e una piscina all'aperto, e vanta bellissime viste sul Mar Ionio e una grande terrazza panoramica.",
+                            "descriptionRestaurant": "Il ristorante del Taormina Park Hotel è specializzato in cucina italiana e siciliana e propone vini locali, che potrete gustare ammirando la vista sul mare dalle grandi finestre nella sala ristorazione in inverno, e sulla terrazza affacciata sul mare in estate",
+                            "descriptionRooms": "Tutte le camere sono climatizzate e presentano arredi in legno di noce, e la maggior parte regala un balcone e viste sul mare, sull'Etna o sul parco circostante.",
+                            "descriptionServices": "Piscina, Parcheggio, Connessione WiFi gratuita, Disponibilità di camere familiari, Ristorante, Bar, Spiaggia privata",
+                            "tags": [
+                                {
+                                    "id": 39,
+                                    "name": "Famiglia"
+                                },
+                                {
+                                    "id": 41,
+                                    "name": "Piscina"
+                                },
+                                {
+                                    "id": 42,
+                                    "name": "Spiaggiaprivata"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 22,
+                                    "name": "Taormina",
+                                    "position": {
+                                        "address": "Taormina, Messina, Sicilia, Italia",
+                                        "coords": [
+                                            "37.851792",
+                                            "15.285652"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 126,
+                                    "image": "http://51.77.82.133:86/api/images/126/images/GY9hI7m8DvYNLgVp.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 127,
+                                    "image": "http://51.77.82.133:86/api/images/127/images/qamIgu1zF1ZOa63w.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 128,
+                                    "image": "http://51.77.82.133:86/api/images/128/images/qZHhv2Wr9bIsnt6j.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 129,
+                                    "image": "http://51.77.82.133:86/api/images/129/images/jJxn7OczkWBoY0UB.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 130,
+                                    "image": "http://51.77.82.133:86/api/images/130/images/L6aNIMNmd7BJVI9P.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 131,
+                                    "image": "http://51.77.82.133:86/api/images/131/images/8LmMsY5OafYGXaBZ.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 132,
+                                    "image": "http://51.77.82.133:86/api/images/132/images/CJRCQcM3er38RvvA.jpeg",
+                                    "image_name": null
+                                }
+                            ],
+                            "contact": {
+                                "id": 47,
+                                "phone": "095-1234567",
+                                "email": "hotel@info.com",
+                                "address": "Via Bagnoli Croci 92, 98039 Taormina",
+                                "website": "www.hotel.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "activities": [
+                        
+                    ],
+                    "days": [
+                        {
+                            "id": 12,
+                            "name": "Teatro antico di Taormina e granita al Bam Bar",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "description": "Al vostro risveglio nella spelinda Taormina potrete fare una passeggiata per i romantici vicoli e fare shopping nelle botteghe di lusso. Non perdetevi la visita guidata al Teatro Antico e il pranzo al Bam Bar, dove potrete gustare le più buone granite della Sicilia!",
+                            "tags": [
+                                {
+                                    "id": 34,
+                                    "name": "BamBar"
+                                },
+                                {
+                                    "id": 31,
+                                    "name": "Oneday"
+                                },
+                                {
+                                    "id": 33,
+                                    "name": "Teatroanticotaormina"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 22,
+                                    "name": "Taormina",
+                                    "position": {
+                                        "address": "Taormina, Messina, Sicilia, Italia",
+                                        "coords": [
+                                            "37.851792",
+                                            "15.285652"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 115,
+                                    "image": "http://51.77.82.133:86/api/images/115/images/KbeC4wKzhw1rIjD7.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 116,
+                                    "image": "http://51.77.82.133:86/api/images/116/images/BwKVWOf7wLhtgf7Y.jpeg",
+                                    "image_name": null
+                                }
+                            ]
+                        }
+                    ],
+                    "transports": [
+                        {
+                            "id": 9,
+                            "name": "Trasferimento da Taormina a Noto",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "typology": "bus",
+                            "distance": 80,
+                            "description": "Il bus che vi porterà da Taormina a Noto partirà alle ore 18 dalla Stazione Centrale",
+                            "tags": [
+                                
+                            ],
+                            "departure": {
+                                "id": 22,
+                                "name": "Taormina",
+                                "position": {
+                                    "address": "Taormina, Messina, Sicilia, Italia",
+                                    "coords": [
+                                        "37.851792",
+                                        "15.285652"
+                                    ]
+                                }
+                            },
+                            "arrival": {
+                                "id": 23,
+                                "name": "Noto",
+                                "position": {
+                                    "address": "Noto, Siracusa, Sicilia, 96017, Italia",
+                                    "coords": [
+                                        "36.890886",
+                                        "15.070645"
+                                    ]
+                                }
+                            },
+                            "contact": {
+                                "id": 48,
+                                "phone": "095-1234567",
+                                "email": "trasporto@info.com",
+                                "address": "via uno, 123456",
+                                "website": "www.trasporto.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "included": null,
+                    "notIncluded": null
+                },
+                {
+                    "id": 13,
+                    "place": {
+                        "id": 23,
+                        "name": "Noto",
+                        "address": "Noto, Siracusa, Sicilia, 96017, Italia",
+                        "latitude": "36.890886",
+                        "longitude": "15.070645",
+                        "created_at": "2020-02-26 15:26:09",
+                        "updated_at": "2020-02-26 15:26:09"
+                    },
+                    "dayDate": "2020-04-06",
+                    "accomodations": [
+                        {
+                            "id": 10,
+                            "name": "Landolina Palace Hotel",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "typology": "Hotel",
+                            "stars": "4",
+                            "position": "100 m dalla Cattedrale e a 13 km dalla Riserva Naturale di Vendicari",
+                            "description": "Dotato di una terrazza, il Landolina Palace Hotel si trova a Noto, in Sicilia, a 100 m dalla Cattedrale e a 13 km dalla Riserva Naturale di Vendicari. Dotato di un bar, questo hotel a 4 stelle dispone di camere climatizzate, ognuna con bagno privato.\r\nOgni mattina vi attende una colazione all'italiana.",
+                            "descriptionRestaurant": null,
+                            "descriptionRooms": null,
+                            "descriptionServices": "Parcheggio gratuito, Connessione WiFi gratuita, Disponibilità di camere familiari, Bar",
+                            "tags": [
+                                {
+                                    "id": 39,
+                                    "name": "Famiglia"
+                                },
+                                {
+                                    "id": 40,
+                                    "name": "Ottimaposizione"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 23,
+                                    "name": "Noto",
+                                    "position": {
+                                        "address": "Noto, Siracusa, Sicilia, 96017, Italia",
+                                        "coords": [
+                                            "36.890886",
+                                            "15.070645"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 120,
+                                    "image": "http://51.77.82.133:86/api/images/120/images/iVfImMw7CjHgxdHv.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 121,
+                                    "image": "http://51.77.82.133:86/api/images/121/images/GUlEb5pV91Yb6X4K.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 122,
+                                    "image": "http://51.77.82.133:86/api/images/122/images/BdnHFVLgtdnwyuPq.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 123,
+                                    "image": "http://51.77.82.133:86/api/images/123/images/lIVe0z8ezGuZD5IT.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 124,
+                                    "image": "http://51.77.82.133:86/api/images/124/images/pGOy7BOthUk2e7fa.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 125,
+                                    "image": "http://51.77.82.133:86/api/images/125/images/CNZ4a8oOW9gRG7zf.jpeg",
+                                    "image_name": null
+                                }
+                            ],
+                            "contact": {
+                                "id": 49,
+                                "phone": "095-1234567",
+                                "email": "hotel@info.com",
+                                "address": "Largo Landolina n.2, 96017 Noto",
+                                "website": "www.sito.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "activities": [
+                        {
+                            "id": 6,
+                            "name": "Camminata nella Gola, nel miglior canyon della Sicilia",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "description": "Camminerete e nuoterete all'interno di questo splendido fiume, esplorando luoghi segreti e lontani dai percorsi turistici. La passeggiata nel fiume ti porterà attraverso il Grand Canyon del Cassibile (Cava Grande) con le sue viste mozzafiato e le splendide piscine termali. Durata di 4 ore, dalle 09:00 alle 13:00, prelievo dall'hotel, costo 100 euro",
+                            "tags": [
+                                {
+                                    "id": 46,
+                                    "name": "Escursione"
+                                },
+                                {
+                                    "id": 45,
+                                    "name": "Facoltativo"
+                                },
+                                {
+                                    "id": 47,
+                                    "name": "Natura"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 26,
+                                    "name": "Gole dell'Alcantara",
+                                    "position": {
+                                        "address": "Gole Alcantara - Parco Botanico e Geologico, SP81, Ficarazzi, Castiglione di Sicilia, Catania, Sicil",
+                                        "coords": [
+                                            "37.881324",
+                                            "15.171378"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 142,
+                                    "image": "http://51.77.82.133:86/api/images/142/images/G9OmJQZTlQOE0TQc.jpeg",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 143,
+                                    "image": "http://51.77.82.133:86/api/images/143/images/6TPqsuojErD1EUl5.jpeg",
+                                    "image_name": null
+                                }
+                            ],
+                            "contact": {
+                                "id": 50,
+                                "phone": "095-1234567",
+                                "email": "attività@info.com",
+                                "address": "via uno, 123456",
+                                "website": "www.attività.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "days": [
+                        {
+                            "id": 13,
+                            "name": "Noto e le meraviglie del Barocco",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "description": "Distante  pochi chilometri dalla Riserva di Vendicari, la cittadina di Noto è uno dei posti da non perdere!\r\nNoto vi colpirà per i suoi monumenti e i palazzi storici, con una architettura urbanistica che rasenta quasi la finzione!\r\nNon a caso è stata definita “La Capitale del Barocco” e il suo centro storico è stato dichiarato Patrimonio dell’Umanità dall’UNESCO nel 2002. Lasciate i bagagli in hotel e rilassatevi in una passeggiata serale iniziando dalla Porta Reale",
+                            "tags": [
+                                {
+                                    "id": 35,
+                                    "name": "ArrivoNoto"
+                                },
+                                {
+                                    "id": 22,
+                                    "name": "Arrivoserale"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 23,
+                                    "name": "Noto",
+                                    "position": {
+                                        "address": "Noto, Siracusa, Sicilia, 96017, Italia",
+                                        "coords": [
+                                            "36.890886",
+                                            "15.070645"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 118,
+                                    "image": "http://51.77.82.133:86/api/images/118/images/UdclGjxdOaXlIaZC.png",
+                                    "image_name": null
+                                },
+                                {
+                                    "id": 119,
+                                    "image": "http://51.77.82.133:86/api/images/119/images/pyHkMTVviI3SAChU.jpeg",
+                                    "image_name": null
+                                }
+                            ]
+                        }
+                    ],
+                    "transports": [
+                        
+                    ],
+                    "included": null,
+                    "notIncluded": null
+                },
+                {
+                    "id": 14,
+                    "place": {
+                        "id": 23,
+                        "name": "Noto",
+                        "address": "Noto, Siracusa, Sicilia, 96017, Italia",
+                        "latitude": "36.890886",
+                        "longitude": "15.070645",
+                        "created_at": "2020-02-26 15:26:09",
+                        "updated_at": "2020-02-26 15:26:09"
+                    },
+                    "dayDate": "2020-04-07",
+                    "accomodations": [
+                        
+                    ],
+                    "activities": [
+                        
+                    ],
+                    "days": [
+                        {
+                            "id": 14,
+                            "name": "Chiesa di Santa Chiara e Convento delle Benedettine",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "description": "La Chiesa di Santa Chiara è un esempio di architettura barocca di altissimo pregio. L’interno della chiesa, con numerose decorazioni, putti e stucchi, è considerato uno dei più importanti dell’intera Sicilia per lo stile architettonico barocco. La nostra guida turistica vi racconetrà tutti i segreti di queste meraviglie!",
+                            "tags": [
+                                {
+                                    "id": 36,
+                                    "name": "Visitaguidata"
+                                }
+                            ],
+                            "places": [
+                                {
+                                    "id": 23,
+                                    "name": "Noto",
+                                    "position": {
+                                        "address": "Noto, Siracusa, Sicilia, 96017, Italia",
+                                        "coords": [
+                                            "36.890886",
+                                            "15.070645"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "images": [
+                                {
+                                    "id": 117,
+                                    "image": "http://51.77.82.133:86/api/images/117/images/khPVPqfILfGKvdNZ.jpeg",
+                                    "image_name": null
+                                }
+                            ]
+                        }
+                    ],
+                    "transports": [
+                        {
+                            "id": 10,
+                            "name": "Ritorno all' Aeroporto Fontanarossa di Catania",
+                            "language": {
+                                "id": 2,
+                                "code": "it",
+                                "name": "italiano",
+                                "created_at": "2020-03-02 19:44:53",
+                                "updated_at": "2020-03-02 19:44:53"
+                            },
+                            "typology": "transfer",
+                            "distance": 100,
+                            "description": "Il giorno della partenza un servizio di transfer vi preleverà dal vostro hotel per riportarvi all'Aeroporto Fontanarossa di Catania",
+                            "tags": [
+                                
+                            ],
+                            "departure": {
+                                "id": 23,
+                                "name": "Noto",
+                                "position": {
+                                    "address": "Noto, Siracusa, Sicilia, 96017, Italia",
+                                    "coords": [
+                                        "36.890886",
+                                        "15.070645"
+                                    ]
+                                }
+                            },
+                            "arrival": {
+                                "id": 21,
+                                "name": "Catania",
+                                "position": {
+                                    "address": "Catania, Sicilia, Italia",
+                                    "coords": [
+                                        "37.502236",
+                                        "15.087380"
+                                    ]
+                                }
+                            },
+                            "contact": {
+                                "id": 51,
+                                "phone": "095-1234567",
+                                "email": "trasporto@info.com",
+                                "address": "via uno, 123456",
+                                "website": "www.trasporto.it",
+                                "note": null
+                            }
+                        }
+                    ],
+                    "included": null,
+                    "notIncluded": null
+                }
+            ]
+        }
+    },
+    "errors": [
+        
+    ],
+    "redirect": null
+}

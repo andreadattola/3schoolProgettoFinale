@@ -1,0 +1,37 @@
+.containermodale {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(56, 56, 56, 0.438);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.modale {
+    position: relative;
+    top: 25vh;
+    width: 40%;
+    border-radius: 10px;
+    margin: auto;
+    background: white;
+    z-index: 3;
+}
+
+@media screen and (max-width: 767px) {
+    .modale{
+        top: 20vh;
+        width: 85%;
+    }
+}
+
+.chiudi {
+    border: 1px solid rgb(233, 220, 220);
+    border-radius: 5px
+}
+
+.chiudi:hover {
+    background-color: rgba(199, 247, 240, 0.945);
+    cursor: pointer;
+}
+
